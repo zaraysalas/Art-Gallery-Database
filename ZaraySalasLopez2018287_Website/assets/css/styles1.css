@@ -1,0 +1,9 @@
+.message{
+  color: red !important;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  border-style: hidden;
+  font-size: 30px;
+  width: 100%;
+  background-color: transparent;
+}

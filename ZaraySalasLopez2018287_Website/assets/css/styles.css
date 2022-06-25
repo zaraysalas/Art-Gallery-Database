@@ -1,0 +1,435 @@
+.fa {
+  color: #b58900;
+  font-size: xx-large;
+}
+
+@media (max-width: 991px) {
+  #container1 {
+    padding: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  #container1 {
+    padding: 191px;
+  }
+}
+
+.buttons {
+  color: white;
+  background-color: #b58900;
+  border-bottom: #b58900;
+  border: none;
+  border-radius: 33px;
+  box-shadow: 0 3px 20px 0 #000000;
+  width: 119px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  text-align: center;
+  vertical-align: middle;
+  background-image: none;
+  margin-bottom: 0px;
+}
+
+
+.buttons:not(:disabled):not(.disabled):active:focus, .buttons:not(:disabled):not(.disabled).active:focus, .show > .buttons.dropdown-toggle:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(215,216,201,0.5);
+  box-shadow: 0 0 0 0.2rem rgba(215,216,201,0.5);
+}
+
+.buttons:not(:disabled):not(.disabled):active, .buttons:not(:disabled):not(.disabled).active, .show > .buttons.dropdown-toggle {
+  color: #fff;
+  background-color: #826200;
+  background-image: none;
+  border-color: #755900;
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(215,216,201,0.5);
+  box-shadow: 0 0 0 0.2rem rgba(215,216,201,0.5);
+}
+
+.buttons.active, .buttons:active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.125);
+}
+
+.color-yellow {
+  color: #b58900 !important;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+}
+
+.size {
+  font-size: 44px;
+}
+
+.fm-margin {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+.collapse-container {
+  height: 32px;
+}
+
+.form-control-plaintext {
+  display: inline-block;
+  width: 100%;
+  padding-top: 0.375rem;
+  padding-bottom: 0.375rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+  color:#f7af59;
+  background-color: rgba(255, 0, 0, 0);
+  border: solid rgba(255, 0, 0, 0);
+  border-width: 1px 0;
+  font-weight: bold;
+}
+
+.buttons-config {
+  color: #88a6fa;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  width: 19px;
+}
+
+.icons-config{
+  color:  #88a6fa;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-size: medium;
+}
+
+.icons-configwithblue{
+  color:  #b58900;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  font-size: medium;
+}
+
+.artists {
+  background-color: #88a6fa;
+}
+
+.list {
+  margin-top: 160px;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding-top: 0px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  border-radius: 3%;
+  box-shadow: 0px 1px 51px 9px;
+  width: 96%;
+}
+
+.collapse-div {
+  display: inline-block !important;
+  height: 78px;
+  padding-top: 19px;
+}
+
+.white-heading {
+  margin: 0px;
+  color: white;
+}
+
+#white-username {
+  margin-top: 55px;
+}
+
+.form-control.admin {
+  margin-bottom: 5px;
+}
+
+.col-md-6 {
+  max-width: 364.444px;
+}
+
+.col-md-6.text-left {
+  max-width: 728.889px;
+}
+
+.cont-buttons-config {
+  display: inline-flex;
+}
+
+.blue-square {
+  background-color: #88a6fa;
+  text-align: center;
+}
+
+.yellow-square {
+  background-color: #feb257;
+  text-align: center;
+}
+
+.pink-square {
+  background-color: #fdd0a7;
+  text-align: center;
+}
+
+.pic-square {
+  background-repeat: repeat-x;
+  background-size: contain;
+  background-image: url(../../assets/img/entrance-museum.jpg);
+  height: 265px;
+  padding: 0px;
+}
+
+.squares {
+  height: 190px;
+  text-align: center;
+  flex: 0 0 33.33%;
+  max-width: 33.3333333333%;
+  padding-top: 50px;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.text-center.customer.color-yellow.size {
+  background-color: rgba(136,166,250,0.58);
+  font-size: 100px;
+  height: 265px;
+  width: 1193.33px;
+  margin: 0px;
+  padding-top: 45px;
+  background-color: rgba(30,41,99,0.53);
+  text-shadow: 1px 3px 1px #ffffff;
+}
+
+.customer-socrates {
+  width: 100px;
+  vertical-align: middle;
+}
+
+.big-menu-links {
+  color: white;
+  font-size: 50px;
+  font-family: 'Dancing Script';
+  background-color: rgba(255,255,255,0);
+  padding: 0px;
+}
+
+navigation-cle {
+  color: #2AA198;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #37434d;
+  text-decoration: none;
+}
+
+body {
+  background-color: #ffffff;
+  align-content: center;
+  align-items: center;
+}
+
+#transmenu.hiding {
+  visibility: hidden;
+}
+
+#transmenu .navbar-toggler {
+  position: relative;
+  height: 35px;
+  margin-right: -.75rem;
+  border: none;
+}
+
+#transmenu .navbar-toggler:focus, #transmenu .navbar-toggler:active {
+  outline: 0;
+}
+
+#transmenu .navbar-toggler span {
+  display: block;
+  background-color: #6f6f6e;
+  height: 2px;
+  width: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  transform: rotate(0deg);
+  position: relative;
+  left: 0;
+  opacity: 1;
+}
+
+#transmenu .navbar-toggler span:nth-child(1), #transmenu .navbar-toggler span:nth-child(3) {
+  -webkit-transition: transform .35s ease-in-out;
+  -moz-transition: transform .35s ease-in-out;
+  transition: transform .35s ease-in-out;
+}
+
+#transmenu .navbar-toggler:not(.collapsed) span:nth-child(1) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  transform: rotate(135deg);
+  opacity: 0.9;
+}
+
+#transmenu .navbar-toggler:not(.collapsed) span:nth-child(2) {
+  height: 12px;
+  visibility: hidden;
+  background-color: transparent;
+}
+
+#transmenu .navbar-toggler:not(.collapsed) span:nth-child(3) {
+  position: absolute;
+  left: 12px;
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  opacity: 0.9;
+}
+
+#transmenu {
+  -moz-transition: background 0.6s ease;
+  -webkit-transition: background 0.6s ease;
+  transition: background 0.6s ease;
+}
+
+#transmenu .navbar-brand {
+  -moz-transition: all 0.6s ease;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.ml-auto, .mx-auto {
+  margin-left: 0px !important;
+}
+
+.container.gallery {
+  width: 1200px;
+  margin-top: 160px;
+  padding: 0px;
+}
+
+.squares-gallery {
+  height: 300px;
+  text-align: center;
+  flex: 0 0 20%;
+  max-width: 18%;
+  padding-top: 150px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin: 10px;
+  border-radius: 18% 18% 0% 0%;
+  box-shadow: 0px 0px 21px;
+}
+
+.label-gallery {
+  width: 100%;
+  margin: 0px;
+  text-align: center;
+  color: white;
+  background-color: transparent;
+}
+
+.heading-gallery {
+  margin: 0px;
+  color: white;
+  background-color: transparent;
+}
+
+.div-gallery {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(7,54,66,0.43);
+}
+
+.radio-gallery {
+  width: 30px;
+  height: 30px;
+  margin-top: -13px;
+}
+
+@media (max-width:767px) {
+  .contact-us {
+    padding: 20px 0;
+  }
+}
+
+.contact-us {
+  padding: 20px 60px;
+  display: -webkit-inline-box !important;
+  display: inline-flex !important;
+}
+
+.contact-us form {
+  max-width: 480px;
+  width: 84%;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+@media (max-width:767px) {
+  .contact-us form {
+    padding: 30px;
+  }
+}
+
+.contact-us h2 {
+  margin-top: 5px;
+  margin-bottom: 36px;
+}
+
+.contact-us .form-group:last-child {
+  margin-bottom: 5px;
+}
+
+
+.contact-us form .form-control:focus {
+  border: 1px solid #b2b2b2;
+}
+
+.contact-us form textarea.form-control {
+  min-height: 100px;
+  max-height: 260px;
+  padding-top: 10px;
+  resize: vertical;
+}
+
+.contact-us-address {
+  font-size: 27px;
+}
+
+.form-control.message-contact-us {
+  height: 150px;
+}
+
+.fc-toghether {
+  margin-left: 0px;
+  margin-right: 4px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+

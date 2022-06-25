@@ -1,0 +1,3 @@
+# Ignore the videos and sql files
+*.mp4
+*.sql
